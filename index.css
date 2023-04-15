@@ -1,0 +1,102 @@
+body{
+background-color: black;
+margin: 1rem;
+padding: 2rem;
+color: white;
+font-family: 'Inter', sans-serif ;
+}
+
+.heading p{
+ 
+   font-size: 24px;
+   font-weight: 300;
+   padding-bottom: 1.2rem;
+   line-height: 29px;
+   line-height: 100%;
+   
+}
+.data {
+ display: flex;
+    align-items: center;
+
+}
+input{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 1.2rem;
+    /* height: 3rem;
+     width: 35rem; */
+     width: 443px;
+     height: 51px;
+     color: #ffffff;
+     font-size: 18px;
+     line-height: 22px;
+     line-height: 100%;
+     padding-left: 10px;
+}
+
+.name {
+
+   padding-right: 2.7rem;
+   
+}
+
+.profession{
+    padding-right: 2.7rem;
+
+}
+
+.age {
+    padding-right: 2.7rem;
+
+}
+
+.button{
+    padding-top: 3rem;
+   
+}
+.button button{
+    height: 58px;
+    width: 226px;
+    font-size: 24px;
+    align-items: center;
+    line-height: 29px;
+    line-height: 100%;
+    border-radius: 5px;
+
+}
+
+
+#messages{
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+
+.added{
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+
+li{
+    list-style: none;
+    gap: 10px;
+}
+
+
+#employees-list{
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+.noemp{
+    margin-top: 20px;
+    font-size: 22px;
+    color: rgb(110, 107, 107);
+    display: inline-block;
+}
+

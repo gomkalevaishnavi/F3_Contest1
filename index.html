@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Data</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+       <p>New Employees</p>
+       </div>
+       <form action="">
+    <div class="data">
+        <div class="name">
+            <label for="name">Enter Name</label>
+            <br>
+           <input type="text" id="name" >
+        </div>
+        <div class="profession">
+            <label for="profession">Enter Profession</label>
+            <br>
+            <input type="text" id="profession" name="prof">
+        </div>
+        <div class="age">
+            <label for="age">Enter Age</label>
+           <br>
+            <input type="number" id="age" >
+        </div>
+    </div>
+   
+    
+
+    <div class="button">
+        <button id="add-employee" type="submit"> Add User</button>
+    </div>
+</form>
+<div id="messages"></div>
+ <div class="added">
+Added Employees
+</div>
+<div style="font-weight: 200;" class="noemp">You have 0 Employees</div>
+<ul id="employee-list">
+    <br>
+</ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
